@@ -1,7 +1,7 @@
 import { createServer } from "http";
 import { createYoga } from "graphql-yoga";
 import { schema } from "./schema";
-
+//algo
 const yoga = createYoga({ schema });
 
 const server = createServer(yoga);
