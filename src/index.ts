@@ -1,5 +1,5 @@
-import { createServer } from "node:http";
-//const http = require('node:http');
+//import { createServer } from "node:http";
+const { createServer } = require('node:http');
 
 import { createYoga } from "graphql-yoga";
 import { schema } from "./schema";
